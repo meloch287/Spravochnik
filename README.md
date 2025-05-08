@@ -12,7 +12,7 @@ API для справочника организаций, построенный
 - Базовые эндпоинты для создания организаций (`POST /organizations/`).
 
 ## Установка
-1. Клонируйте репозиторий: `git clone https://github.com/ВАШ_ЛОГИН/Spravochnik.git`
+1. Клонируйте репозиторий: `git clone https://github.com/meloch287/Spravochnik.git`
 2. Установите зависимости: `pip install -r requirements.txt`
 3. Запустите миграции: `alembic upgrade head`
 4. Запустите сервер: `uvicorn app.main:app --reload`
